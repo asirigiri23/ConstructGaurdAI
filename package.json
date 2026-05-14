@@ -1,0 +1,12 @@
+{
+  "name": "constructguard-ai-onedrive-root",
+  "private": true,
+  "description": "Delegates to the app in ./ConstructGaurdAI (run npm commands from here or from that folder).",
+  "scripts": {
+    "install:app": "npm install --prefix ConstructGaurdAI",
+    "dev:backend": "npm run dev:backend --prefix ConstructGaurdAI",
+    "dev:frontend": "npm run dev:frontend --prefix ConstructGaurdAI",
+    "start:backend": "npm run start:backend --prefix ConstructGaurdAI",
+    "build:frontend": "npm run build:frontend --prefix ConstructGaurdAI"
+  }
+}
