@@ -1,0 +1,12 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+python-dotenv==1.0.1
+httpx==0.28.1
+pillow==11.0.0
+opencv-python==4.10.0.84
+pydantic==2.10.4
+transformers==4.47.1
+torch>=2.5.0
+accelerate==1.2.1
+bitsandbytes==0.45.0; platform_system != "Windows"
